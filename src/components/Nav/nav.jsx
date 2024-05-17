@@ -4,7 +4,7 @@ function Nav() {
   return (
     <>
       <nav className='nav-bar'>
-        <div className='nav-title'>Franz Huerta Inc. LLC</div>
+        <div className='nav-title'>Franz Huerta Inc, LLC</div>
         <ul className='nav'>
           <li>Home</li>
           <li>About</li>
