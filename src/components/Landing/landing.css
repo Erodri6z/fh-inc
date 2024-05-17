@@ -5,11 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-image: url("./../../assets/projects/fhbackground.webp");
+  background-position-x: center;
+  background-size: cover;
+  
 }
 
-.landing-title{
-  font-size: 70px;
-  font-weight: 900;
-  
+.franz{
+  height: 50vh;
+  filter: drop-shadow(2px 4px 0 rgb(255, 255, 255)); 
+  backdrop-filter: blur(0.3px);
 }

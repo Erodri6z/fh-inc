@@ -1,10 +1,11 @@
 import './landing.css'
+import title from "./../../assets/icons/fhlogo.png"
 
 function Landing() {
   return (
     <>
     <div className="landing">
-      <h1 className='landing-title'>FRANZ HUERTA INC, LLC</h1>
+      <img className="franz" src={title} alt="Franz Huerta Inc, llc" />
     </div>
     </>
   )
