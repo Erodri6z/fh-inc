@@ -3,11 +3,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
+  background-color: #1471fd9d;
   height: 2rem;
   width: 100vw;
   padding: 10px;
   z-index: 99;
+  color: rgb(0, 0, 0);
+  transition: background-color 1s;
+
+}
+
+.nav-bar:hover{
+  transition: background-color 1s;
+  background-color: #1471fd;
+
 }
 
 .nav-title {
@@ -19,10 +28,14 @@
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-right: 30px;
 }
 
 .nav li {
   margin-left: 4px;
-  padding: 18px;
+  padding: 8px;
+}
+
+.nav li:hover {
+  font-weight: 900;
 }
