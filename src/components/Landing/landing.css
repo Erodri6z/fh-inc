@@ -15,4 +15,6 @@
   height: 50vh;
   filter: drop-shadow(2px 4px 0 rgb(255, 255, 255)); 
   backdrop-filter: blur(0.3px);
+  backdrop-filter: brightness(1.1);
+  border-radius: 100px;
 }
