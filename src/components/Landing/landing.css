@@ -1,0 +1,15 @@
+.landing{
+  height: 100vh;
+  text-align: center;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.landing-title{
+  font-size: 70px;
+  font-weight: 900;
+  
+}
