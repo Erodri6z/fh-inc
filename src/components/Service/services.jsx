@@ -28,7 +28,7 @@ function Services () {
   return (
     <>
     <div className="services">
-      <h2>What We Can Do For You</h2>
+      <h2>What We Can Do For You!</h2>
       <div className='services-container'>
       <>
       {services.map(s => 

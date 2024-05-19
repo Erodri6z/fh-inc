@@ -1,12 +1,13 @@
 .services{
   height: 95vh;
   background-color: #1472FD;
-  padding:5rem 10rem;
+  padding:5rem 6rem;
   text-align: center;
+  font-size: 20px;
 }
 .services-container{
   display: flex;
-  justify-content:space-evenly ;
+  justify-content:space-around ;
   text-align: left;
   height: min-content;
 }
@@ -20,6 +21,8 @@
 .card{
   background-color: white;
   height: 400px;
+  width: 200px;
   color: black;
   padding: 40px;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
