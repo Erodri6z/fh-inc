@@ -1,9 +1,12 @@
+import './gallery.css'
+
 function Gallery ()  {
   return (
     <>
     <div className="gallery">
-      <div>
-
+      <h3>Our Projects</h3>
+      <div className='gallery-container'>
+        
       </div>
     </div>
     </>

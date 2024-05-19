@@ -1,0 +1,11 @@
+.gallery{
+  height: 100vh;
+  background-color: #1472FD;
+  padding: 4rem;
+}
+
+.gallery-container{
+  background-color: white;
+  width: 100%;
+  height: 80%;
+}
