@@ -20,6 +20,13 @@ span {
   width: 15rem;
   border: solid #8A8EBA 3px;
   border-radius: 20px;
+  
+}
+
+iframe{
+  border-radius: 20px;
+  border: solid #8A8EBA 3px;
+
 }
 
 .about-title{
