@@ -1,0 +1,25 @@
+.services{
+  height: 95vh;
+  background-color: #1472FD;
+  padding:10rem;
+  text-align: center;
+}
+.services-container{
+  display: flex;
+  justify-content:space-evenly ;
+  text-align: left;
+  height: min-content;
+}
+
+.icons{
+  width: 200px;
+  height: 200px;
+  filter: grayscale(100%)
+}
+
+.card{
+  background-color: white;
+  height: 400px;
+  color: black;
+  padding: 40px;
+}
