@@ -16,16 +16,20 @@ span {
 }
 
 .about{
+  background-color: #1472FD;
   padding: 0 5rem;
   width: 15rem;
   border: solid #8A8EBA 3px;
-  border-radius: 20px;
+  border-radius: 1px;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
+  
   
 }
 
 iframe{
-  border-radius: 20px;
+  border-radius:10px;
   border: solid #8A8EBA 3px;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 
 }
 
