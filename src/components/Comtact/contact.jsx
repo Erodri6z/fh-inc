@@ -35,7 +35,8 @@ function Contact () {
           <button>Spanish</button>
         </div>
         <div className='email'>
-        <form ref={form} onSubmit={sendEmail}>
+          <h4>Email Us</h4>
+        <form ref={form} className='form' onSubmit={sendEmail}>
           <label className='form-name'>Name</label>
           <input className="form-name-input"type="text" name="user_name" />
           <label className='form-email'>Email</label>
