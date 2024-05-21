@@ -6,6 +6,7 @@ import Gallery from './components/Gallery/gallery'
 import Landing from './components/Landing/landing'
 import Nav from './components/Nav/nav'
 import Services from './components/Service/services'
+import Contact from './components/Comtact/contact'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <About />
     <Services />
     <Gallery />
+    <Contact />
     </>
   )
 }
