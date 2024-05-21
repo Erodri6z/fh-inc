@@ -43,7 +43,7 @@ function Contact () {
           <input className='form-email-input' type="email" name="user_email" />
           <label className='form-message'>Message</label>
           <textarea className='form-message-input' name="message" />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className='btn-send'/>
         </form>
         </div>
         {/* <div></div> */}

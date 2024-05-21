@@ -11,8 +11,11 @@
   width: 100%;
   background-color: aliceblue;
   padding: 1rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: space-evenly;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
+
 }
 
 .call{
@@ -50,4 +53,16 @@
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
   margin-bottom: 20px ;
   padding: 5px;
+}
+
+.form-name, .form-email, .form-message{
+  font-weight: 900;
+}
+
+.btn-send{
+  width: 100px;
+  padding: 5px;
+  background-color: #1472FD;
+  border: solid #40445c 1px ;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
