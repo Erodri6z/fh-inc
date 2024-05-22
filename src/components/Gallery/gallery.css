@@ -35,6 +35,18 @@
   font-size: 30px;
 }
 
+@media (max-width: 768px) {
+  .gallery-div{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-container{
+    width: 300px;
+  
+  }
+}
 /* @keyframes scroll {
   0% {
     transform: translateX(0);
