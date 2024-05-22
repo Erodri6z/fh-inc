@@ -42,10 +42,18 @@ iframe{
     min-height: 100vh;
     padding: 20px; 
   }
+  .about{
+    width: 80%;
+    padding: 20px;
+  }
   
   .about-container{
     flex-direction: column;
     padding: 0px;
+    
+  }
+  iframe{
+    width: 90%;
   }
   span{
     display: none;

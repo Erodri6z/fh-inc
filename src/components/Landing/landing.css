@@ -9,11 +9,13 @@
   background-image: url("./../../assets/projects/fhbackground.webp");
   background-position-x: center;
   background-size: cover;
+  /* width: 100%; */
   
 }
 
 .franz{
-  min-width: 50vh;
+  max-width: 80vh;
+  min-width: 40vh;
   filter: drop-shadow(2px 4px  rgb(255, 255, 255)); 
   backdrop-filter: blur(0.3px);
   backdrop-filter: brightness(1.1);
@@ -23,8 +25,11 @@
 
 @media (max-width: 768px) {
   .landing {
-    height: auto; /* Allow the height to adjust based on content */
-    min-height: 100vh; /* Ensure it takes at least the full viewport height */
-    padding: 20px; /* Add some padding for better mobile layout */
+    height: auto;
+    min-height: 100vh; 
+    padding: 20px; 
+  }
+  .franz{
+    width: 100%;
   }
 }

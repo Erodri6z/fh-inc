@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #1471fd9d;
   height: 2rem;
-  width: 100vw;
+  width: 100%;
   padding: 10px;
   z-index: 99;
   color: rgb(0, 0, 0);
@@ -40,4 +40,10 @@
 
 .nav li:hover {
   font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .nav-title{
+    display: none;
+  }
 }

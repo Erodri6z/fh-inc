@@ -72,3 +72,18 @@
   border: solid #40445c 1px ;
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
+
+@media (max-width: 768px) {
+  .contact-div{
+    flex-direction: column;  
+  }
+  .form-name-input, .form-email-input, .form-message-input{
+    width: 69%;
+  }
+  .form{
+    width: 80%;
+  }
+  .email{
+    width: 50px
+  }
+}
