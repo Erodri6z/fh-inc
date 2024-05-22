@@ -7,6 +7,7 @@ import Landing from './components/Landing/landing'
 import Nav from './components/Nav/nav'
 import Services from './components/Service/services'
 import Contact from './components/Comtact/contact'
+import Footer from './components/Footer/footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <Services />
     <Gallery />
     <Contact />
+    <Footer /> 
     </>
   )
 }
