@@ -23,7 +23,6 @@ span {
   border-radius: 1px;
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
   
-  
 }
 
 iframe{
@@ -35,4 +34,21 @@ iframe{
 
 .about-title{
   font-size: 23px;
+}
+
+@media (max-width: 768px) {
+  .about-comp {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px; 
+  }
+  
+  .about-container{
+    flex-direction: column;
+    padding: 0px;
+  }
+  span{
+    display: none;
+  }
+
 }

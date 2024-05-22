@@ -36,7 +36,7 @@ function Services () {
         <img src={s.image} alt="image"  className='icons'/>
         <div>
           <h4>{s.service}</h4>
-          <p>{s.description}</p>
+          <p className='desc'>{s.description}</p>
         </div>
       </div>
       )}

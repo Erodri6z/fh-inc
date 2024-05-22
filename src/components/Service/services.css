@@ -26,3 +26,28 @@
   padding: 40px;
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
+
+@media (max-width: 768px) {
+  .services {
+    height: auto; 
+    min-height: 100vh;
+    padding: 10px; 
+  }
+  .services-container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .icons{
+    width: 100px;
+    height: 100px;
+  }
+  .card{
+    width: 100px;
+    height: 200px;
+  }
+  .desc{
+    display: none;
+  }
+}

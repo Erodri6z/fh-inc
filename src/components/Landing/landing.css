@@ -1,7 +1,8 @@
 .landing{
   height: 100vh;
   text-align: center;
-  border: 1px solid blue;
+
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +13,18 @@
 }
 
 .franz{
-  height: 50vh;
+  min-width: 50vh;
   filter: drop-shadow(2px 4px  rgb(255, 255, 255)); 
   backdrop-filter: blur(0.3px);
   backdrop-filter: brightness(1.1);
   border-radius: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .landing {
+    height: auto; /* Allow the height to adjust based on content */
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+    padding: 20px; /* Add some padding for better mobile layout */
+  }
 }
