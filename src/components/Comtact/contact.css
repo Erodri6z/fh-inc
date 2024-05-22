@@ -74,8 +74,19 @@
 }
 
 @media (max-width: 768px) {
+  .contact-component{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+
+  }
   .contact-div{
-    flex-direction: column;  
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 70dvw;
+
   }
   .form-name-input, .form-email-input, .form-message-input{
     width: 69%;
