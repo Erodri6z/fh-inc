@@ -24,15 +24,15 @@ function Contact () {
   return (
     <>
     <div className='contact-component'>
-      <h3>Lets's Get In Touch</h3>
+      <h3>Let's Get In Touch</h3>
       <div className='contact-div'>
         <div className='call'>
           <h4>Call Us</h4>
-          <p>7727727722</p>
-          <button>English</button>
+          <p>For English (559) 362-1049</p>
+          <button className='call-btn'>Call Us</button>
           or
-          <p>7727727722</p>
-          <button>Spanish</button>
+          <p>Para Espanol (559) 362-1152</p>
+          <button className='call-btn'>Llamanos</button>
         </div>
         <div className='email'>
           <h4>Email Us</h4>

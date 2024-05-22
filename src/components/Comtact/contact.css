@@ -59,7 +59,13 @@
   font-weight: 900;
 }
 
-.btn-send{
+.call-btn{
+  border-radius: 1px;
+}
+
+.btn-send, .call-btn{
+  font-weight: 900;
+  font-size: 14px;
   width: 100px;
   padding: 5px;
   background-color: #1472FD;
