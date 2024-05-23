@@ -91,6 +91,11 @@
   .nav-item{
     padding: 10px;
   }
+  .dropdown-toggle {
+    display: flex;
+    background-color: #1471fd;
+    filter: drop-shadow(4px 4px white);
+  }
   .nav-bar:hover{
     background-color: rgba(0, 0, 0, 0);
   }
