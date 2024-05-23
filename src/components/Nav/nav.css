@@ -33,9 +33,18 @@
   margin-right: 30px;
 }
 
+.nav-item{
+  color: black;
+}
+
+.nav-item:hover{
+  font-weight: 900;
+  color: black;
+}
 .nav li {
   margin-left: 4px;
   padding: 8px;
+  color: black;
 }
 
 .nav li:hover {
