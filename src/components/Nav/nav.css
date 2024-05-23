@@ -19,6 +19,10 @@
 
 }
 
+.dropdown-toggle {
+  display: none;
+}
+
 .nav-title {
   margin: 0;
   font-weight: 900;
