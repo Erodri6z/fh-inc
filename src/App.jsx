@@ -10,9 +10,26 @@ import Contact from './components/Comtact/contact'
 import Footer from './components/Footer/footer'
 import { Element } from 'react-scroll'
 // import { Route, Switch } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { getMessage } from './services/email.js'
 
 function App() {
 
+  const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    const fetchMessage = async () => {
+      try {
+        const data = await getMessage();
+        setMessage(data.message);
+      } catch (error) {
+        console.error('Error fetching message:', error);
+      }
+    };
+
+    fetchMessage();
+  }, []);
+  console.log(message)
 
   return (
     <>

@@ -28,11 +28,16 @@ function Contact () {
       <div className='contact-div'>
         <div className='call'>
           <h4>Call Us</h4>
+
           <p>For English (559) 362-1049</p>
+          <a href="tel:559-362-1049">
           <button className='call-btn'>Call Us</button>
+          </a>
           or
-          <p>Para Espanol (559) 362-1152</p>
+          <p>Para Español (559) 362-1152</p>
+          <a href="tel:559-362-1152">
           <button className='call-btn'>Llamanos</button>
+          </a>
         </div>
         <div className='email'>
           <h4>Email Us</h4>
