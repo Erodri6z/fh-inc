@@ -11,4 +11,35 @@ export const getMessage = async () => {
     console.error('Error fetching message', error);
     throw error;
   }
-};
+}
+
+
+export const getServiceId = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/serviceId`)
+    return response.data
+  } catch (error) {
+    console.error('Error fetching message', error);
+    throw error;
+  }
+}
+
+export const getTemplateId = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/templateId`)
+    return response.data
+  } catch (error) {
+    console.error('Error fetching message', error);
+    throw error;
+  }
+}
+
+export const getPublicKey = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/publicKey`)
+    return response.data
+  } catch (error) {
+    console.error('Error fetching message', error);
+    throw error;
+  }
+}
