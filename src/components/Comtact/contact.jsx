@@ -3,6 +3,9 @@ import './contact.css'
 import React, { useRef } from 'react';
 import  {sendMessage} from '../../services/email.js'
 
+const API_URL = import.meta.env.VITE_API_URL;
+
+
 function Contact () {
 
   const form = useRef();
@@ -51,6 +54,7 @@ function Contact () {
         <input type="submit" value="Send" className='btn-send'/>
       </form>
       </div>
+        {/* <div></div> */}
       </div>
     </div>
   </>
