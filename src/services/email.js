@@ -15,7 +15,7 @@ console.log("API_URL:", API_URL)
 
 export const sendMessage = async (templateParams) => {
   try {
-    const response = await axios.post(`${API_URL}send-email`, {
+    const response = await axios.post(`${API_URL}/send-email`, {
       templateParams,
     });
 

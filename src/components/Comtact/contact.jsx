@@ -3,7 +3,6 @@ import './contact.css'
 import React, { useRef } from 'react';
 import  {sendMessage} from '../../services/email.js'
 
-const API_URL = import.meta.env.VITE_API_URL;
 
 
 function Contact () {
@@ -18,7 +17,7 @@ function Contact () {
       message: e.target.message.value,
     }
     try {
-      const response  =  sendMessage(templateParams)
+      const response  = sendMessage(templateParams)
       console.log("Message sent", response)
     } catch (error) {
       console.error('Error sending email:', error);
