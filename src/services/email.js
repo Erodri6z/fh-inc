@@ -12,11 +12,14 @@ console.log("API_URL:", API_URL)
 //     throw error;
 //   }
 // }
-
 export const sendMessage = async (templateParams) => {
   try {
     const response = await axios.post(`${API_URL}/send-email`, {
       templateParams,
+    }, {
+      headers: {
+        'Content-Type': 'application/json'
+      }
     });
 
     return response.data;
@@ -24,4 +27,4 @@ export const sendMessage = async (templateParams) => {
     console.error('Error sending email:', error);
     throw error;
   }
-};
+}
