@@ -1,2 +1,7 @@
 [build]
   functions = "netlify/functions"
+  publish = "dist"
+
+[dev]
+  command = "vite"
+  port = 3000
