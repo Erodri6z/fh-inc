@@ -10,6 +10,7 @@
   justify-content:space-around ;
   text-align: left;
   height: min-content;
+  flex-wrap: wrap;
 }
 
 .icons{
@@ -24,6 +25,7 @@
   width: 200px;
   color: black;
   padding: 40px;
+  margin-bottom: 10px;
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
 
