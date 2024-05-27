@@ -13,8 +13,8 @@ function Contact () {
   const handleSubmit = (e) => {
     e.preventDefault();
     const templateParams = {
-      name: e.target.name.value,
-      email: e.target.email.value,
+      user_name: e.target.name.value,
+      user_email: e.target.email.value,
       message: e.target.message.value,
     }
     try {
@@ -46,9 +46,9 @@ function Contact () {
         <h4>Email Us</h4>
       <form ref={form} className='form' onSubmit={handleSubmit}>
         <label className='form-name'>Name</label>
-        <input className="form-name-input"type="text" name="name" />
+        <input className="form-name-input"type="text" name="user_name" />
         <label className='form-email'>Email</label>
-        <input className='form-email-input' type="email" name="email" />
+        <input className='form-email-input' type="email" name="user_email" />
         <label className='form-message'>Message</label>
         <textarea className='form-message-input' name="message" />
         <input type="submit" value="Send" className='btn-send'/>
