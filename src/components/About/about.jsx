@@ -4,7 +4,7 @@ function About() {
   return (
     <>
     <div className='about-comp'>
-      <div className="about-container">
+      <div className="about-container hidden">
         <div className="about">
           <h3 className='about-title'>Who We Are</h3>
           <p>Franz Huerta Inc, LLC is a locally owned and operated business dedicated to providing high-quality construction and roofing services to the Paragould, Arkansas community and surrounding areas. With a commitment to excellence, customer satisfaction, and safety, we specialize in residential and commercial roofing, general construction, remodeling, and repair services.</p>

@@ -2,6 +2,8 @@ import './landing.css'
 import title from "./../../assets/icons/fhlogo.png"
 
 function Landing() {
+
+
   return (
     <>
     <div className="landing" >

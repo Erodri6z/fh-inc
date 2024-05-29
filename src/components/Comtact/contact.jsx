@@ -29,7 +29,7 @@ function Contact () {
   <>
   <div className='contact-component'>
     <h3>Let's Get In Touch</h3>
-    <div className='contact-div'>
+    <div className='contact-div hidden'>
       <div className='call'>
         <h4>Call Us</h4>
         <p>For English (559) 362-1049</p>

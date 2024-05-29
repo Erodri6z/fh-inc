@@ -14,7 +14,7 @@ function Gallery ()  {
     <>
     <div className="gallery-div">
       <h3 className='projects'>Our Projects</h3>
-      <div className='gallery-container'>
+      <div className='gallery-container hidden'>
         <>
         <div className='gallery'>
           {images.map((i, index) => (

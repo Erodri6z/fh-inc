@@ -27,7 +27,7 @@ function Services () {
 
   return (
     <>
-    <div className="services">
+    <div className="services hidden">
       <h2>What We Can Do For You!</h2>
       <div className='services-container'>
       <>
