@@ -28,7 +28,7 @@ function Contact () {
   return (
   <>
   <div className='contact-component'>
-    <h3>Let's Get In Touch</h3>
+    <h2>Let's Get In Touch</h2>
     <div className='contact-div hidden'>
       <div className='call'>
         <h4>Call Us</h4>

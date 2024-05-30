@@ -1,6 +1,6 @@
 
 
-// import './App.css'
+import './App.css'
 import { useEffect } from 'react'
 import About from './components/About/about'
 import Gallery from './components/Gallery/gallery'
@@ -19,7 +19,9 @@ function App() {
       entries.forEach((entry) => {
         console.log(entry)
         if (entry.isIntersecting) {
-          entry.target.classList.add('show')
+          // setTimeout(() => {
+            entry.target.classList.add('show')
+          // }, 300)
         }else {
           entry.target.classList.remove('show')
         }

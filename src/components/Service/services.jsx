@@ -27,12 +27,12 @@ function Services () {
 
   return (
     <>
-    <div className="services hidden">
+    <div className="services">
       <h2>What We Can Do For You!</h2>
       <div className='services-container'>
       <>
       {services.map(s => 
-      <div className='card' key={s.service}>
+      <div className='card hidden' key={s.service}>
         <img src={s.image} alt="image"  className='icons'/>
         <div>
           <h4>{s.service}</h4>
