@@ -19,9 +19,7 @@ function App() {
       entries.forEach((entry) => {
         console.log(entry)
         if (entry.isIntersecting) {
-          // setTimeout(() => {
             entry.target.classList.add('show')
-          // }, 300)
         }else {
           entry.target.classList.remove('show')
         }

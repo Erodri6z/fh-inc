@@ -29,16 +29,6 @@
   filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
 }
 
-.card:nth-child(1){
-  transition-delay: 2s;
-}
-/* .card:nth-child(3){
-  transition-delay: 300s;
-}
-.card:nth-child(4){
-  transition-delay: 40220s;
-} */
-
 
 @media (max-width: 768px) {
   .services {
