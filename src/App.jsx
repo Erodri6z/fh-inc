@@ -1,6 +1,7 @@
 
 
 // import './App.css'
+import { useEffect } from 'react'
 import About from './components/About/about'
 import Gallery from './components/Gallery/gallery'
 import Landing from './components/Landing/landing'
@@ -13,19 +14,25 @@ import { Element } from 'react-scroll'
 
 
 function App() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      console.log(entry)
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show')
-      }else {
-        entry.target.classList.remove('show')
-      }
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show')
+        }else {
+          entry.target.classList.remove('show')
+        }
+      })
     })
-  })
+    const hiddenElements = document.querySelectorAll('.hidden')
+    hiddenElements.forEach((e) => observer.observe(e))
 
-  const hiddenElements = document.querySelectorAll('.hidden')
-  hiddenElements.forEach((e) => observer.observe(e))
+    return () => {
+      hiddenElements.forEach((e) => observer.unobserve(e)) 
+    }
+  }, [])
+
 
   return (
     <>
