@@ -18,7 +18,7 @@ function Contact () {
       message: e.target.message.value,
     }
     try {
-      const response  = sendMessage(templateParams)
+      const response = sendMessage(templateParams)
       console.log("Message sent", response)
     } catch (error) {
       console.error('Error sending email:', error);
