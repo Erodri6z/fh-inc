@@ -19,7 +19,6 @@
   overflow-x: scroll;
   animation: scroll 10s linear infinite;
   scrollbar-width: thin;
-  /* will-change: transform; */
 
 }
 

@@ -1,6 +1,7 @@
 .landing{
   height: 100vh;
   text-align: center;
+  animation: blur-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 
   /* border: 1px solid blue; */
   display: flex;
@@ -31,5 +32,19 @@
   }
   .franz{
     width: 100%;
+  }
+}
+
+@keyframes blur-in-center {
+  0% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+            backdrop-filter: brightness(1.0);
+    opacity: 1;
   }
 }
