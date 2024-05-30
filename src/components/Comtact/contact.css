@@ -55,6 +55,10 @@
   padding: 5px;
 }
 
+.form-message-input{
+  font-family: "Lora", serif;
+}
+
 .form-name, .form-email, .form-message{
   font-weight: 900;
 }
