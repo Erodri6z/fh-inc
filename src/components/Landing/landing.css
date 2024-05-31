@@ -24,6 +24,23 @@
   border-radius: 100px;
   animation: text-pop-up-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.landing-btn{
+  font-weight: 900;
+  font-size: 14px;
+  width: 200px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+
+  background-color: #1472FD;
+  border: solid #40445c 1px ;
+  filter: drop-shadow(5px 4px  rgb(0, 0, 0)); 
+  /* background-color: #fcfcfc; */
+}
+
+.landing-btn:hover{
+  background-color: white;
+  color: black;
+}
 
 
 @media (max-width: 768px) {
