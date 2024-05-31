@@ -66,7 +66,7 @@
 .call-btn{
   border-radius: 1px;
   color: white;
-  
+  margin-bottom: 30px;
 }
 
 .btn-send, .call-btn{
@@ -92,13 +92,18 @@
     flex-direction: column;
     min-width: 200px;
     max-width: 70dvw;
+    /* padding: 4rem; */
 
   }
   .form-name-input, .form-email-input, .form-message-input{
     width: 69%;
   }
+  .call{
+    display: flex;
+    text-align: left;
+  }
   .form{
-    width: 80%;
+    width: 90%;
   }
   .email{
     width: 50px
