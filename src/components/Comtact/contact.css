@@ -92,7 +92,6 @@
     flex-direction: column;
     min-width: 200px;
     max-width: 70dvw;
-    /* padding: 4rem; */
 
   }
   .form-name-input, .form-email-input, .form-message-input{
